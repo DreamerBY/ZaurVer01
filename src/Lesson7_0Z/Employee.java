@@ -1,7 +1,7 @@
 package Lesson7_0Z;
 
 public class Employee {
-     public double salary; //Одна переменная
+    public double salary; //Одна переменная
 
     //Метод двойная зарпалата
     public void dvoynayazp(){
@@ -11,6 +11,7 @@ public class Employee {
     }
     //Делаем конструктор
     public Employee(double salary2){
+
         salary=salary2;
     }
 

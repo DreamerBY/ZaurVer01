@@ -7,7 +7,7 @@ public class TretiyClass {
         //Сначало надо создать объект Класса Employee
         Lesson7_0Z.Employee emp/*тут хрантися путь*/ = new Lesson7_0Z.Employee(500);
 
-        System.out.println(emp.salary);
+        System.out.println(emp.salary+" \nВторой ПАКЕТ");
         emp.dvoynayazp();
     }
 }

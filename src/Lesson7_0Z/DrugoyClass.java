@@ -6,7 +6,7 @@ public class DrugoyClass {
         //Сначало надо создать объект Класса Employee
         Employee emp/*тут хрантися путь*/ = new Employee(500);
 
-        System.out.println(emp.salary);
+        System.out.println(emp.salary+" третий покер");
         emp.dvoynayazp();
     }
 }
