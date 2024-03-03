@@ -16,4 +16,4 @@ public class TestStatic {
         gold();
 
     }
-}//1
+}//
