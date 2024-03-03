@@ -2,7 +2,7 @@ package lesson9;
 
 public class Car {
     String color;
-    int a=10;
+    public static int a=10;
     String engine;
     static int count;
 
@@ -12,12 +12,13 @@ public class Car {
         c.a=b;
     }
 
-      Car(String color, String engine2) {
+      public Car(String color, String engine2) {
         int x=5;
         int y=x+10;
         this.count++;
         this.color/*Это переменная метода*/ = color;//парпаметр
         engine = engine2;
+          System.out.println("Кар создан");
     }
 
     public void showColor() {

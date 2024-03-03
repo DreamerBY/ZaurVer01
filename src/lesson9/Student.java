@@ -1,6 +1,9 @@
 package lesson9;
 
 public class Student {
+    int a=10;
+    public int z = 5;
+    public static int c = 5;
 }
 
 class StudentTest{
