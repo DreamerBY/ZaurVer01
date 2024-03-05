@@ -2,8 +2,7 @@ package lesson10;
 
 import lesson9.Car;
 import lesson9.Student;
-import lesson9.*;
-import lesson4Z.lesson4.*;
+import lesson4.lesson4.*;
 import static lesson9.Car.a;
 
 
