@@ -1,9 +1,9 @@
 package lesson11;
 
 public class Student {
-    String name;
-    int course;
-    double grade;
+    public String name;
+    public int course;
+    public double grade;
 
     public Student(String name, int course, double grade) {
         this.name = name;
@@ -25,7 +25,7 @@ public class Student {
         Student st1 = new Student("Ivan", 3, 9.5);
         Student st2 = new Student("Petr", 1, 5.3);
 
-        changeName(st2);
+        //changeName(st2);
         System.out.println(st2.name);
 
 //        st1.swap(st1, st2);
