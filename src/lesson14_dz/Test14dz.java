@@ -3,25 +3,35 @@ package lesson14_dz;
 public class Test14dz {
 
     public static void time() {
+        int chas = 0;
 
         OUTER:
-        for (int chas = 0; chas <= 5; chas++) {
+        while (chas < 6) {
+            int min = 0;
 
-            for (int min = 0; min <= 59; min++) {
-                if (chas > 1 && min % 10 == 0) {
-                    break OUTER;
-                }
-                MIDDLE:
-                for (int sec = 0; sec <= 59; sec++) {
-                    INNER:
-                    if (sec * chas > min) {
-                        continue MIDDLE;
-                    }
-                    System.out.println(chas + ":" + min + ":" + sec);
-                }
+            if (chas > 1 && min % 10 == 0) {
+                break OUTER;
             }
+            MIDDLE:
+            do {
+                int sec = 0;
+                INNER:
+                if (sec * chas > min) {
+                    continue MIDDLE;
+                }
+                while (sec <= 59) {
+                    System.out.println(chas + ":" + min + ":" + sec);
+                sec++;
+                }
+
+                min++;
+            } while (min <= 59);
+
+
+            chas++;
         }
     }
+
 
     public static void main(String[] args) {
         time();
